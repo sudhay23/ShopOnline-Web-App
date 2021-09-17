@@ -9,10 +9,16 @@ $accesslevel = $_POST['accesslevel'];
 $paymentpreference = $_POST['paymentpreference'];
 $address = $_POST['address'];
 
-    $host = "localhost";
-    $dbUsername = "admin";
-    $dbPassword = "admin";
-    $dbname = "shoponline";
+    // $host = "localhost";
+    // $dbUsername = "admin";
+    // $dbPassword = "admin";
+    // $dbname = "shoponline";
+
+    $host = "sql206.epizy.com";
+    $dbUsername = "epiz_29762748";
+    $dbPassword = "CrifBpYoOS3lWg";
+    $dbname = "epiz_29762748_shoponline";
+
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
     if (mysqli_connect_error()) {
