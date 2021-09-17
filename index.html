@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ShopOnline</title>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!---navigation bar--->
+        <header class="text-gray-700 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img class="ml-3 text-xl" src="https://cdn3.iconfinder.com/data/icons/small/512/buy_cart_ecommerce_shopping_online_store-512.png" style="height: 50px;"></img>
+                <span class="ml-3 text-xl"><text  style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #000000;">ShopOnline</text></span>  
+            </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900" href="index.html">Home</a> 
+                <a class="mr-5 hover:text-gray-900" href="login.html">Login</a>
+                <a class="mr-5 hover:text-gray-900" href="#signup">Sign Up</a>
+                <a class="mr-5 hover:text-gray-900" href="admin.html">Admin</a>
+              </nav>
+            </div>
+          </header>
+
+          <!--Hero-->
+
+          <section class="text-gray-700 body-font">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero"  src="https://image.freepik.com/free-vector/e-commerce-vector-illustration-concept_95561-50.jpg">
+              </div>
+              <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><text  style="font-size: 80px; font-family:'Montserrat', sans-serif; word-spacing: 8px; color: #00296b;">Welcome to ShopOnline</text>
+                </h1>
+                <p class="mb-8 leading-relaxed"><text style= "font-family:'Poppins', sans-serif; font-size: 18px;">ShopOnline is an e-commerce user friendly application where the customer can register and purchase their required products.</text></p>
+                <div class="flex justify-center">
+                  <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a href="#signup">Get Started</a></button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--Login-->
+
+          <form action="With PHP/backend/registerCustomer.php" method="POST" class="text-gray-700 body-font" id="signup">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+              <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                <h1 class="title-font font-medium text-3xl text-gray-900"><text style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #00296b;">Register yourself</text></h1>
+              </div>
+              <div class="lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up as Customer</h2>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="First Name" type="text" name="fname" required>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Last Name" type="text" name="lname" required>
+                <input type="hidden" value="customer" name="accesslevel">
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="DOB" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" name="dob" required>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Email" type="email" name="email" required>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Contact Number" type="tel" maxlength="10" minlength="10" name="phoneno" required>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Password" minlength="8" type="password" name="password" required>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Payment Preference" type="text" name="paymentpreference" required>
+                <textarea class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Address" type="text" name="address" rows="4" required></textarea>
+                <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" type="submit">Sign Up</button>
+              </div>
+            </div>
+          </form>
+
+          <!--Gallery-->
+          <section class="text-gray-700 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-col text-center w-full mb-12">
+                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"><text style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #00296b;">Browse Products</text></h1>  
+                </div>
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://ae01.alicdn.com/kf/H8d53c770200e41a1a33b37fe22b37cd45/2020-New-style-Male-High-quality-cotton-linen-in-summer-Leisure-short-sleeve-T-shirt-Men.jpg_200x200.jpg">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Clothing</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Colourful Hoodie</h2>
+                    <p class="mt-1">$16.00</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://ae01.alicdn.com/kf/H852e95b44f6b4966b4d9869cafad9944T/2020-New-style-High-quality-pure-cotton-for-Men-in-summer-short-sleeve-POLO-shirts-Male.jpg_200x200.jpg">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Clothing</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Polo Tees</h2>
+                    <p class="mt-1">$21.15</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://ae01.alicdn.com/kf/H84e75ef7c92b4e158839061487b0d971z/2020-Brand-clothing-Men-High-quality-Casual-canvas-belt-Women-Fashion-leisure-Canvas-belt.jpg_200x200.jpg">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Accesories</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Supreme Belts</h2>
+                    <p class="mt-1">$12.00</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://ae01.alicdn.com/kf/H3fea99c6674d49a08c977e63768cb306G/2020-Brand-clothing-Fashion-men-are-of-high-quality-Pure-cotton-casual-shorts-Male-slim-fit.jpg_200x200.jpg">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Clothing</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Levis Shorts</h2>
+                    <p class="mt-1">$18.40</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://rukminim1.flixcart.com/image/200/200/jhgl5e80/shoe/2/s/v/revolution-4-ni-8-nike-black-white-anthracite-original-imaf5dng9wwxy3t6.jpeg?q=70">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Shoe</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Nike</h2>
+                    <p class="mt-1">$16.00</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://rukminim1.flixcart.com/image/200/200/jggv53k0/backpack/4/r/r/amt-fizz-sch-bag-01-blue-ff9-0-01-001-backpack-american-original-imaf4gkyy4byhstm.jpeg?q=70">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">BackPacks</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium">American Tourister</h2>
+                    <p class="mt-1">$21.15</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://rukminim1.flixcart.com/image/200/200/kb6tyfk0/headphone/k/v/b/rma205-realme-original-imafsh3wcdggedct.jpeg?q=70">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Accesories</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Airpods</h2>
+                    <p class="mt-1">$12.00</p>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://rukminim1.flixcart.com/image/200/200/jsc3ssw0/watch/z/f/y/1170-bl-br-fogg-original-imafdv97yfsrn9wt.jpeg?q=70">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Accesories</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium">Fogg Wrist Watch</h2>
+                    <p class="mt-1">$18.40</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--Footer-->
+          <footer class="text-gray-700 body-font">
+            <div class="bg-gray-200">
+              <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left">&copy; 2020 ShopOnline
+                </p>
+              </div>
+            </div>
+          </footer>
+    </body>
+</html>

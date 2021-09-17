@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Area | ShopOnline</title>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <script>
+            const masterPassword = "helloAdmin";
+            var enterMasterPwd = prompt("Enter the master password");
+            if(enterMasterPwd!=masterPassword)
+            {
+                alert("Wrong Master Password");
+                location.replace("index.html");
+            }
+        </script>
+    </head>
+    <body>
+        <!---navigation bar--->
+        <header class="text-gray-700 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img class="ml-3 text-xl" src="https://cdn3.iconfinder.com/data/icons/small/512/buy_cart_ecommerce_shopping_online_store-512.png" style="height: 50px;"></img>
+                <span class="ml-3 text-xl"><text  style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #000000;">ShopOnline</text></span>  
+            </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900" href="index.html">Home</a> 
+                <a class="mr-5 hover:text-gray-900" href="login.html">Login</a>
+                <a class="mr-5 hover:text-gray-900" href="index.html#signup">Sign Up</a>
+                <a class="mr-5 hover:text-gray-900" href="admin.html">Admin</a>
+                <a class="mr-5 hover:text-gray-900" href="cart.html">Manage Delivery</a>
+              </nav>
+            </div>
+          </header>
+
+          <!--Hero-->
+
+
+          <section class="text-gray-700 body-font" id="login">
+            <div
+                class="container px-5 py-24 mx-auto flex flex-wrap items-center"
+            >
+                <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                    <h1 class="title-font font-medium text-3xl text-gray-900">
+                        <text
+                            style="
+                                font-size: 50px;
+                                font-family: 'Montserrat', sans-serif;
+                                color: #00296b;
+                            "
+                            >Admin Login</text
+                        >
+                    </h1>
+                </div>
+                <form action="With PHP/backend/adminLogin.php" method="POST" class="lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                    <h2
+                        class="text-gray-900 text-lg font-medium title-font mb-5"
+                    >
+                        Admin Login
+                    </h2>
+                   
+                    <input
+                        class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                        placeholder="Email"
+                        id="adminEmail"
+                        required
+                        name="adminEmail"
+                        type="email"
+                    />
+                    
+                    <input
+                        class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                        placeholder="Password"
+                        id="adminPass"
+                        name="adminPassword"
+                        required
+                        type="password"
+                    />
+                    <button type="submit" class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        Login
+                    </button>
+                </form>
+            </div>
+        </section>
+        <form action="With PHP/backend/registerAdmin.php" method="post" class="text-gray-700 body-font" id="login">
+            <div
+                class="container px-5 py-24 mx-auto flex flex-wrap items-center"
+            >
+                <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                    <h1 class="title-font font-medium text-3xl text-gray-900">
+                        <text
+                            style="
+                                font-size: 50px;
+                                font-family: 'Montserrat', sans-serif;
+                                color: #00296b;
+                            "
+                            >Admin Registration</text
+                        >
+                    </h1>
+                </div>
+                <div
+                    class="lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0"
+                >
+                <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up as Admin</h2>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="First Name" type="text" name="fname" required>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Last Name" type="text" name="lname" required>
+                <input type="hidden" value="admin" name="accesslevel">
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="DOB" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" name="dob" required>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Email" type="email" name="email" required>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Contact Number" type="tel" maxlength="10" minlength="10" name="phoneno" required>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Password" type="password" name="password" required>
+                <input class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Salary" type="number" name="salary" required>
+                <textarea class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" placeholder="Address" type="text" name="address" rows="4" required></textarea>
+                <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" type="submit">Sign Up</button>
+                </div>
+            </div>
+        </form>
+        
+        <script>
+            function setAdminLogged()
+            {
+                if(document.querySelector("#adminEmail").value=="adminOne@gmail.com"&&document.querySelector("#adminPass").value=="adminOne")
+                {
+                    localStorage.setItem('loggedAdmin',document.querySelector("#adminEmail").value.split("@")[0]);
+                    location.replace("With%20PHP/adminProductManage.php");
+                    return false;
+                }
+                else
+                {
+                    window.alert("Wrong Credentials");
+                    return false;
+                }
+            }
+        </script>
+    </body>
+</html>

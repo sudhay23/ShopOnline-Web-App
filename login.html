@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login | ShopOnline</title>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!---navigation bar--->
+        <header class="text-gray-700 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img class="ml-3 text-xl" src="https://cdn3.iconfinder.com/data/icons/small/512/buy_cart_ecommerce_shopping_online_store-512.png" style="height: 50px;"></img>
+                <span class="ml-3 text-xl"><text  style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #000000;">ShopOnline</text></span>  
+            </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900" href="index.html">Home</a> 
+                <a class="mr-5 hover:text-gray-900" href="login.html">Login</a>
+                <a class="mr-5 hover:text-gray-900" href="index.html#signup">Sign Up</a>
+                <a class="mr-5 hover:text-gray-900" href="admin.html">Admin</a>
+              </nav>
+            </div>
+          </header>
+
+
+          <!--Hero-->
+
+        <form action="With PHP/backend/customerLogin.php" method="POST" class="text-gray-700 body-font" id="login">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+                <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                    <h1 class="title-font font-medium text-3xl text-gray-900">
+                        <text style="font-size: 50px;font-family: 'Montserrat', sans-serif;color: #00296b;">Welcome</text>
+                    </h1>
+                </div>
+                <div class="lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                    <h2 class="text-gray-900 text-lg font-medium title-font mb-5">
+                        Customer Login
+                    </h2>
+                   
+                    <input
+                        class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                        placeholder="Email"
+                        id="custEmail"
+                        required
+                        type="email"
+                        name="custEmail"
+                    />
+                    
+                    <input
+                        class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                        placeholder="Password"
+                        id="custPass"
+                        minlength="8"
+                        name="custPassword"
+                        required
+                        type="password"
+                    />
+                    <button type="submit" class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        Login
+                    </button>
+                </div>
+            </div>
+        </form>
+
+         
+          <!--Footer-->
+          <footer class="text-gray-700 body-font" style="position: fixed;bottom: 0;width:100vw;">
+            <div class="bg-gray-200">
+              <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left">&copy; 2020 ShopOnline
+                </p>
+              </div>
+            </div>
+          </footer>
+
+          <script>
+
+            if(localStorage.getItem("loggedCustomer"))
+            {
+              location.replace("With%20PHP/customerProductView.php");
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css"
+        />
+    </head>
+
+    <body onload="sucfn()">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+        <form action="../yourOrders.php" method="POST">
+            <input type="hidden" id="emailid" name="email" value="" />
+            <button style="display: none" id="actualSubmitBtn" type="submit">
+                Submit NOW
+            </button>
+        </form>
+        <script type="text/javascript">
+            const sucfn = () => {
+                swal({
+                    title: "Success",
+                    text: "Order Cancellation Request Made",
+                    type: "success",
+                }).then(function () {
+                    // Redirect the user
+                    document.getElementById(
+                        "emailid"
+                    ).value += localStorage.getItem("loggedCustomerEmail");
+                    document.querySelector("#actualSubmitBtn").click();
+                });
+            };
+        </script>
+    </body>
+</html>

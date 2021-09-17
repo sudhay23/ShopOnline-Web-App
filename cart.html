@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ShopOnline</title>
+        <link
+            href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <style>
+            #logoutBtn {
+                border: 1px solid red;
+                padding: 5px 10px;
+                color: red;
+                border-radius: 5px;
+                transition: 0.15s;
+            }
+            #manageDeliveriesBtn {
+                border: 1px solid green;
+                padding: 5px 10px;
+                color: #5cb85c;
+                border-radius: 5px;
+                transition: 0.15s;
+            }
+            #manageProductsBtn {
+                border: 1px solid green;
+                padding: 5px 10px;
+                color: #5cb85c;
+                border-radius: 5px;
+                transition: 0.15s;
+            }
+            #logoutBtn:hover {
+                background: #d9534f;
+                color: white;
+                transition: 0.2s;
+                text-decoration: none;
+            }
+            #manageDeliveriesBtn:hover {
+                background: #5cb85c;
+                color: white;
+                transition: 0.2s;
+                text-decoration: none;
+            }
+            #manageProductsBtn:hover {
+                background: #5cb85c;
+                color: white;
+                transition: 0.2s;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+      <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img class="ml-3 text-xl" src="https://cdn3.iconfinder.com/data/icons/small/512/buy_cart_ecommerce_shopping_online_store-512.png" style="height: 50px;"></img>
+            <span class="ml-3 text-xl"><text  style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #000000;">ShopOnline</text></span>  
+        </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a onclick="clearUser()" id="logoutBtn" class="mr-5 hover:text-gray-900 text-3xl" href="index.html">Logout</a> 
+          <a id="manageDeliveriesBtn" href="cart.html" class="mr-5 hover:text-gray-900 text-3xl">Manage Deliveries</a> 
+          <a id="manageProductsBtn" href="With PHP/adminProductManage.php" class="mr-5 hover:text-gray-900 text-3xl">Manage Products</a> 
+          </nav>
+          <br>
+          <br>
+          </div>
+      </header>
+          <div class="container" >
+          <p id="success"></p>
+          <h3 class="text-right" id="welcomeMsg">Welcome, </h3>
+          <script>
+          const username = localStorage.getItem('loggedAdmin');
+          console.log(username);
+          document.querySelector("#welcomeMsg").innerHTML+=username;
+
+          function clearUser()
+          {
+            localStorage.clear();
+          }
+          </script>
+        <div class="forLoggedInAdmin">
+            <section class="text-gray-700 body-font">
+                <div
+                    class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+                >
+                    <div
+                        class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0" 
+                    >
+                        <img
+                            class="object-fill object-right rounded"
+                            alt="hero"
+                            src="https://image.freepik.com/free-vector/delivery-service-with-masks-concept_23-2148535315.jpg"
+                        />
+                    </div>
+                    <div
+                        class="md:w-1/2 lg:pl-64 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+                    >
+                        <br />
+                      <form action="With PHP/backend/manageDelivery.php" method="POST" >
+                        <h1
+                            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-gray-900"
+                        >
+                            Delivery Status Update
+                        </h1>
+                        <br>
+                        <input
+                            class="flex justify-left bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4 text-2xl"
+                            placeholder="Delivery ID"
+                            type="text"
+                            name="deliveryid"
+                            required
+                        />
+                        <input
+                            class="flex justify-left bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-6 py-2 mb-4 text-2xl"
+                            placeholder="Delivery Date"
+                            type="text"
+                            name="deliverydate"
+                            onfocus="(this.type='date')"
+                            onblur="(this.type='text')"
+                            required
+                        />
+                        <select name="deliverystatus" class="flex justify-left bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-10 py-2 mb-4 text-2xl">
+                            <option value="Dispatched">Dispatched</option>
+                            <option value="Shipping">Shipping</option>
+                            <option value="Out For Delivery">Out for Delivery</option>
+                            <option value="Delivered">Delivered</option>
+                            <option value="Order Canceled">Order Cancelled</option>
+                        </select>
+                        <br />
+                        <button type="submit" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg text-3xl">
+                            Update
+                        </button>
+                      </form>
+                    </div>
+                </div>
+              
+            </section>
+        </div>
+
+        <script>
+            if (!localStorage.getItem("loggedAdmin")) {
+                document.querySelector(".forLoggedInAdmin").style.display =
+                    "block";
+                document.querySelector(".forLoggedInAdmin").innerHTML =
+                    "<br><br><h1 align='center'>Login First !!</h1>";
+                document.querySelector("#logoutBtn").innerHTML = "Go Home";
+            }
+        </script>
+    </body>
+</html>
