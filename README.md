@@ -4,9 +4,9 @@
 
 The ShopOnline Web Application was developed using HTML, CSS, Javascript, PHP, phpMyAdmin, MySQL and XAMPP as a result of implementation of key concepts of DBMS such as normalization for an efficient database design.
 
-Team:
+Project maintainers:
 
--   Sudhay Senthilkumar
--   Sandeep Rajakrishnan
+-   Sudhay Senthilkumar ([@sudhay23](https://github.com/sudhay23))  
+-   Sandeep Rajakrishnan ([@san-coding](https://github.com/san-coding))
 -   Raswanth R
 -   Tarun K B
