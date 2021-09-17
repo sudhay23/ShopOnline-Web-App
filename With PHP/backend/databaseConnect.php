@@ -3,7 +3,7 @@
     $host = "sql206.epizy.com";
     $dbUsername = "epiz_29762748";
     $dbPassword = "CrifBpYoOS3lWg";
-    $dbname = "shoponline";
+    $dbname = "epiz_29762748_shoponline";
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
     if (mysqli_connect_error()) 
