@@ -58,12 +58,6 @@ CREATE TABLE `cart` (
 -- Dumping data for table `cart`
 --
 
-INSERT INTO `cart` (`personid`, `productid`, `quantity`, `cost`, `deliveryid`) VALUES
-(5, 1, 1, 75000, 2),
-(6, 1, 3, 225000, 3),
-(6, 1, 1, 75000, 4),
-(6, 1, 1, 75000, 5),
-(6, 2, 2, 50000, 5);
 
 -- --------------------------------------------------------
 
@@ -80,11 +74,7 @@ CREATE TABLE `customer` (
 -- Dumping data for table `customer`
 --
 
-INSERT INTO `customer` (`personid`, `paymentPreference`) VALUES
-(1, 'Credit Card'),
-(4, 'Cash on Delivery'),
-(5, 'Cash On Delivery'),
-(6, 'Cash on Delivery');
+
 
 -- --------------------------------------------------------
 
@@ -104,12 +94,6 @@ CREATE TABLE `delivery` (
 -- Dumping data for table `delivery`
 --
 
-INSERT INTO `delivery` (`deliveryid`, `personid`, `deliveryStatus`, `deliveryDate`, `totalCost`) VALUES
-(1, 4, 'Requested Cancellation', '2020-10-30', 150000),
-(2, 5, 'Order Canceled', '2020-11-30', 75000),
-(3, 6, 'Shipping', '2020-12-04', 225000),
-(4, 6, 'Order Placed', '2020-11-30', 75000),
-(5, 6, 'Order Canceled', '2020-11-13', 125000);
 
 -- --------------------------------------------------------
 
@@ -133,13 +117,6 @@ CREATE TABLE `persons` (
 -- Dumping data for table `persons`
 --
 
-INSERT INTO `persons` (`personid`, `fname`, `lname`, `accesslevel`, `accountpassword`, `dob`, `phoneno`, `email`, `address`) VALUES
-(1, 'Sandeep', 'Rajakrishnan', 'customer', 'testPass', '2020-11-12', 9876543190, 'sandur43@gmail.com', 'Cbe, India'),
-(2, 'Sudhay', 'S', 'admin', 'testAdmin', '2020-11-13', 9876542321, 'sudhay2001@gmail.com', 'India'),
-(3, 'Raswanth', 'Rajangam', 'admin', 'scamPassword', '2020-10-30', 9361309533, 'raswanth8901@gmail.com', 'G2, Anant Jothi apartments, west ramalingam road, '),
-(4, 'Tarun', 'KB', 'customer', 'tarunPassword', '2020-11-01', 9876543210, 'kbtarun2002@gmail.com', 'Salem, India'),
-(5, 'Sam', 'Anderson', 'customer', 'samPassword', '2020-12-02', 9876543210, 'sam@gmail.com', 'India'),
-(6, 'John', 'Doe', 'customer', 'testPassword', '2003-01-22', 9876421949, 'john@gmail.com', 'India');
 
 -- --------------------------------------------------------
 
@@ -161,10 +138,6 @@ CREATE TABLE `product` (
 -- Dumping data for table `product`
 --
 
-INSERT INTO `product` (`productID`, `productName`, `productPrice`, `productStock`, `productDescription`, `productCap`, `productPhoto`) VALUES
-(1, 'iPhone 12 Pro', 75000, 797, 'A14 Bionic', 4, 'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-pro-family-hero?wid=940&amp;hei=1112&amp;fmt=jpeg&amp;qlt=80&amp;op_usm=0.5,0.5&amp;.v=1604021663000'),
-(2, 'Airpods Pro', 25000, 896, 'Best Sound', 7, 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1591634795000'),
-(3, 'iPad Pro', 200000, 398, 'Best iPad you can find', 5, 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-select-wifi-silver-202003_FMT_WHH?wid=1945&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1583551131102');
 
 --
 -- Indexes for dumped tables
