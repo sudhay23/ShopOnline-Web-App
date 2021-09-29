@@ -1,4 +1,4 @@
-# ShopOnline - WebApp ([Hosted link](http://xarayim.infinityfreeapp.com/))
+# ShopOnline - WebApp
 
 ### An E-commerce platform in form of a Web Application incorporating concepts of DBMS along with PHP, HTML, CSS.
 
