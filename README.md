@@ -1,5 +1,7 @@
 # ShopOnline - WebApp (Celebrating open-source 🎉)
 
+[![open issues](https://img.shields.io/github/issues/sudhay23/ShopOnline-Web-App)](https://github.com/sudhay23/ShopOnline-Web-App/issues)
+
 -   We're hosted at [here](https://shoponline-web.000webhostapp.com/) (we're currently facing some issues with Registration and login, will fix it soon)
 
 ### An E-commerce platform in form of a Web Application incorporating concepts of DBMS along with PHP, HTML, CSS.
