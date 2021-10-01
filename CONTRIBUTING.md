@@ -33,7 +33,7 @@ Hey there 👋. We're thrilled that you're here and can't wait to work with you.
 
 ---
 
-## Opening Issues
+## Opening Pull Request
 
 -   Make sure you make changes on a new branch where the naming convention is `<yourUsername>/<yourContributionName>`
 
@@ -41,7 +41,7 @@ Hey there 👋. We're thrilled that you're here and can't wait to work with you.
 
 ---
 
-## What roles can you play here:
+## What roles you can play here:
 
 Anything that helps you and us to keep up the open source spirit in building ShopOnline into a full-fledged platform is welcome. (Doesn't always have to be lines of code 😁)
 
