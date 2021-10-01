@@ -13,9 +13,9 @@
 
 .footer .heading {
     max-width: 1010px;
-    width: 90%;
+    /* width: 90%; */
     text-transform: uppercase;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-bottom: 3rem;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
