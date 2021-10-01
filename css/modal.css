@@ -21,3 +21,18 @@
     width: 100px;
     margin-bottom: 20px;
 }
+
+.modalOpenBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgb(241, 143, 157);
+    padding: 16px;
+    border: none;
+    border-radius: 50px;
+}
+
+.modalOpenBtn:focus {
+    outline: none;
+}
