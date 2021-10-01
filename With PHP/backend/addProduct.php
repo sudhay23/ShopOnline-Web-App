@@ -14,10 +14,10 @@ $productPhoto = $_POST['productPhoto'];
   //     $dbPassword = "admin";
   //     $dbname = "shoponline";
 
-  $host = "sql206.epizy.com";
-  $dbUsername = "epiz_29762748";
-  $dbPassword = "CrifBpYoOS3lWg";
-  $dbname = "epiz_29762748_shoponline";
+  $host = "localhost";
+  $dbUsername = "id17684848_admin";
+  $dbPassword = "s[|^CZh=+m-&)e0o";
+  $dbname = "id17684848_shoponline";
 
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
