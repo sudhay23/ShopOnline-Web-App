@@ -1,0 +1,24 @@
+@media only screen and (max-width: 500px) {
+  .logo-img-top {
+    height: 1.8rem !important;
+    margin: 0 !important;
+  }
+
+  .logo-text-top text {
+    font-size: 2rem !important;
+  }
+
+  .hero-text text {
+    font-size: 2rem !important;
+  }
+
+  .subheading-home {
+    width: 90vw;
+    text-align: center;
+  }
+
+  .subheading-home text {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+}
