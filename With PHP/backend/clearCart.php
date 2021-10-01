@@ -1,13 +1,8 @@
 <?php 
-    // $host = "localhost";
-    // $dbUsername = "admin";
-    // $dbPassword = "admin";
-    // $dbname = "shoponline";
-
-    $host = "sql206.epizy.com";
-    $dbUsername = "epiz_29762748";
-    $dbPassword = "CrifBpYoOS3lWg";
-    $dbname = "epiz_29762748_shoponline";
+$host = "localhost";
+$dbUsername = "admin";
+$dbPassword = "admin";
+$dbname = "shoponline";
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
     if (mysqli_connect_error()) 
