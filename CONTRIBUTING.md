@@ -1,6 +1,6 @@
 # Contibuting to ShopOnline:
 
-Hey there 👋. We're thrilled that you're here an can't wait to work with you. Make sure to go through this document and have the app setup on your local machine
+Hey there 👋. We're thrilled that you're here and can't wait to work with you. Make sure to go through this document and have the app setup on your local machine
 
 ---
 
@@ -30,3 +30,11 @@ Hey there 👋. We're thrilled that you're here an can't wait to work with you. 
 7. Import the `shoponline.sql` file into the phpMyAdmin dashboard which also can be opened from the XAMPP dahsboard
 
 8. Now you can launch `http://localhost/<shoponlineFolderName>`
+
+---
+
+## Opening Issues
+
+-   Make sure you make changes on a new branch where the naming convention is `<yourUsername>/<yourContributionName>`
+
+-   You may create new issues with relevant title and description with screenshots preferably
