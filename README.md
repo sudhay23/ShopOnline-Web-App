@@ -57,6 +57,8 @@ Project maintainers:
     > 
     > ADDING PRODUCT DETAILS
     > <img width="1440" alt="Screenshot 2021-09-17 at 8 51 56 PM" src="https://user-images.githubusercontent.com/65719940/133892084-8283e3ee-a9a8-4988-a06a-6bbf5b37dd20.png"> 
+
 ## Installation
 
 See [Installation Guideline](installation_guidelines.md)
+
