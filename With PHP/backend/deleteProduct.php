@@ -2,14 +2,10 @@
 
     $productId = $_POST["productID"];
 
-    // $host = "localhost";
-    // $dbUsername = "admin";
-    // $dbPassword = "admin";
-    // $dbname = "shoponline";
-    $host = "localhost";
-    $dbUsername = "id17684848_admin";
-    $dbPassword = "s[|^CZh=+m-&)e0o";
-    $dbname = "id17684848_shoponline";
+$host = "localhost";
+$dbUsername = "admin";
+$dbPassword = "admin";
+$dbname = "shoponline";
 
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);

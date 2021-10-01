@@ -3,15 +3,11 @@
 $custEmail = $_POST['custEmail'];
 $custPassword = $_POST['custPassword'];
 
-// $host = "localhost";
-// $dbUsername = "admin";
-// $dbPassword = "admin";
-// $dbname = "shoponline";
-
 $host = "localhost";
-$dbUsername = "id17684848_admin";
-$dbPassword = "s[|^CZh=+m-&)e0o";
-$dbname = "id17684848_shoponline";
+$dbUsername = "admin";
+$dbPassword = "admin";
+$dbname = "shoponline";
+
 //create connection
 $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
 $crctPassTEMP = $conn->query("SELECT accountpassword from persons where accesslevel='customer' and email='".$custEmail."'");

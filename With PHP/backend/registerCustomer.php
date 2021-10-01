@@ -9,15 +9,11 @@ $accesslevel = $_POST['accesslevel'];
 $paymentpreference = $_POST['paymentpreference'];
 $address = $_POST['address'];
 
-    // $host = "localhost";
-    // $dbUsername = "admin";
-    // $dbPassword = "admin";
-    // $dbname = "shoponline";
+$host = "localhost";
+$dbUsername = "admin";
+$dbPassword = "admin";
+$dbname = "shoponline";
 
-    $host = "localhost";
-    $dbUsername = "id17684848_admin";
-    $dbPassword = "s[|^CZh=+m-&)e0o";
-    $dbname = "id17684848_shoponline";
 
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);

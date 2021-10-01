@@ -1,13 +1,9 @@
-<?php 
-   //  $host = "localhost";
-   //  $dbUsername = "admin";
-   //  $dbPassword = "admin";
-   //  $dbname = "shoponline";
+<?php
+$host = "localhost";
+$dbUsername = "admin";
+$dbPassword = "admin";
+$dbname = "shoponline";
 
-   $host = "localhost";
-   $dbUsername = "id17684848_admin";
-   $dbPassword = "s[|^CZh=+m-&)e0o";
-   $dbname = "id17684848_shoponline";
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
     if (mysqli_connect_error()) 
