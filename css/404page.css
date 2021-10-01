@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap');
+.margin-20{
+  margin-top: 20vh;
+}
+span{
+  color:#142833;
+}
+
+.first-four{
+  color: rgb(243, 95, 95);
+  font-size:20vmin;
+}
+
+.second-four{
+  color: rgb(243, 95, 95);
+  font-size:20vmin;
+}
+
+.gear{
+  width: 20vmin;
+}
+.description{
+
+  text-align: center;
+}
+.description > button > a{
+  font-family: 'Cabin', sans-serif;
+}
+.description > p {
+  font-family: 'Yaldevi', sans-serif;
+}
+.description > h2{
+  font-family: 'Gemunu Libre', sans-serif;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% {  transform: rotate(359deg); }
+}
+.spin {
+  animation: spin 5s linear infinite;
+
+}
