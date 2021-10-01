@@ -14,3 +14,40 @@ Project maintainers:
 -   Tarun K B
     > (Screenshots are not in order of workflow, please visit the hosted live website to check out the project)
     > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/65719940/133892074-86556054-7643-43c5-b3c6-f1d0d3ccb22b.png"> > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 05 PM" src="https://user-images.githubusercontent.com/65719940/133892076-943284a4-e821-4dcb-b8b9-c8e050246276.png"> > <img width="644" alt="Screenshot 2021-09-17 at 8 56 47 PM" src="https://user-images.githubusercontent.com/65719940/133892078-dad5c846-6202-42ac-8b85-d6e087c6065c.png"> > <img width="1440" alt="Screenshot 2021-09-17 at 8 56 30 PM" src="https://user-images.githubusercontent.com/65719940/133892080-fdfc2118-8e4c-4f1f-bc77-6b812ac9dc38.png"> > <img width="1440" alt="Screenshot 2021-09-17 at 8 51 29 PM" src="https://user-images.githubusercontent.com/65719940/133892083-0895e83f-749a-4ad9-a6e1-6b7fa18b3fc8.png"> > <img width="1440" alt="Screenshot 2021-09-17 at 8 51 56 PM" src="https://user-images.githubusercontent.com/65719940/133892084-8283e3ee-a9a8-4988-a06a-6bbf5b37dd20.png"> > <img width="1440" alt="Screenshot 2021-09-17 at 8 56 18 PM" src="https://user-images.githubusercontent.com/65719940/133892088-29ddd8c7-ff61-450f-87a3-6e46b862ca8f.png">
+
+## Installation
+### Locally with XAMPP
+
+- Clone the repo to yout local machine:
+
+    `git clone https://github.com/sudhay23/ShopOnline-Web-App.git`
+
+- Download and install XAMPP:
+
+    [XAMPP](https://www.apachefriends.org/de/download.html)
+
+- Copy/Paste the cloned repo into the `htdocs` folder of your XAMPP installation directory
+
+    > for example: C:\xampp\htdocs
+
+
+- Start Apache Webser and hte MySQL database, for example over the XAMPP Control Panel
+
+- Import `shoponline.sql` to your database, for example over phpMyAdmin
+
+    > http://localhost/phpmyadmin/
+
+- Now you can visite the site:
+
+    > http://localhost/ShopOnline-Web-App/
+
+
+### Webhosting
+
+- Clone the repo to yout local machine:
+
+    `git clone https://github.com/sudhay23/ShopOnline-Web-App.git`
+
+- Upload the folder to the web server via an FTP-Programm of your choice.
+
+- Import `shoponline.sql` to your database, for example over phpMyAdmin
