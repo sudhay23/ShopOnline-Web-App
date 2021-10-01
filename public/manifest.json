@@ -1,0 +1,21 @@
+{
+  "short_name": "ShopOnline",
+  "name": "ShopOnline",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "../index.html",
+  "background_color": "#edf2f7",
+  "display": "standalone",
+  "theme_color": "#edf2f7",
+  "description": "ShopOnline is an e-commerce user friendly application where the customer can register and purchase their required products."
+}
