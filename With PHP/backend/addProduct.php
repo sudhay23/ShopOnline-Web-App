@@ -9,15 +9,12 @@ $productDescription = $_POST['productDescription'];
 $productCap = $_POST['productCap'];
 $productPhoto = $_POST['productPhoto'];
 
-  // $host = "localhost";
-  //     $dbUsername = "admin";
-  //     $dbPassword = "admin";
-  //     $dbname = "shoponline";
+$host = "localhost";
+$dbUsername = "admin";
+$dbPassword = "admin";
+$dbname = "shoponline";
 
-  $host = "sql206.epizy.com";
-  $dbUsername = "epiz_29762748";
-  $dbPassword = "CrifBpYoOS3lWg";
-  $dbname = "epiz_29762748_shoponline";
+
 
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
