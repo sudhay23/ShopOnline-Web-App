@@ -1,6 +1,7 @@
 # ShopOnline - WebApp (Celebrating open-source 🎉)
 
--   We're hosted at [here](https://shoponline-web.000webhostapp.com/) (we're currently facing some issues with Registration and login, will fix it soon)
+-   We're hosted at [here](https://shoponline-web.000webhostapp.com/)
+-   [Join Our Discord](https://discord.gg/yhtkaawfNq)
 
 ### An E-commerce platform in form of a Web Application incorporating concepts of DBMS along with PHP, HTML, CSS.
 
@@ -12,6 +13,7 @@ Project maintainers:
 -   Sandeep Rajakrishnan ([@san-coding](https://github.com/san-coding))
 -   Raswanth R
 -   Tarun K B
+
     > (Screenshots are not in order of workflow, please visit the hosted live website to check out the project)
     > 
     > 
