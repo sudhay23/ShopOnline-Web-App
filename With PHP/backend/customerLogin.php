@@ -7,6 +7,7 @@ $host = "localhost";
 $dbUsername = "admin";
 $dbPassword = "admin";
 $dbname = "shoponline";
+
 //create connection
 $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
 $crctPassTEMP = $conn->query("SELECT accountpassword from persons where accesslevel='customer' and email='".$custEmail."'");
