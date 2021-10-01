@@ -1,7 +1,6 @@
 # ShopOnline - WebApp (Celebrating open-source 🎉)
 
 -   We're hosted at [here](https://shoponline-web.000webhostapp.com/)
--   [Join Our Discord](https://discord.gg/yhtkaawfNq)
 
 ### An E-commerce platform in form of a Web Application incorporating concepts of DBMS along with PHP, HTML, CSS.
 
@@ -60,3 +59,5 @@ Project maintainers:
     > ADDING PRODUCT DETAILS
     > <img width="1440" alt="Screenshot 2021-09-17 at 8 51 56 PM" src="https://user-images.githubusercontent.com/65719940/133892084-8283e3ee-a9a8-4988-a06a-6bbf5b37dd20.png"> 
    
+## Contact Us
+-   [Join Our Discord](https://discord.gg/yhtkaawfNq)
