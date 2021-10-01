@@ -1,4 +1,4 @@
-# ShopOnline - WebApp
+# ShopOnline - WebApp (Celebrating open-source 🎉)
 
 -   We're hosted at [here](https://shoponline-web.000webhostapp.com/) (we're currently facing some issues with Registration and login, will fix it soon)
 
