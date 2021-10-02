@@ -1,3 +1,6 @@
+[![open issues](https://img.shields.io/github/issues/sudhay23/ShopOnline-Web-App)](https://github.com/sudhay23/ShopOnline-Web-App/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/sudhay23/ShopOnline-Web-App)](https://github.com/sudhay23/ShopOnline-Web-App/graphs/contributors)
+
 # ShopOnline - WebApp (Celebrating open-source 🎉)
 
 -   We're hosted at [here](https://shoponline-web.000webhostapp.com/)
