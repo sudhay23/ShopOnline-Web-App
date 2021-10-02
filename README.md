@@ -71,4 +71,6 @@ Project maintainers:
 
 See [Installation Guideline](installation_guidelines.md)
 
+## Contributing
 
+We'd love to have contributors! If you're interested in contributing, take a look at our [CONTRIBUTING.md](./CONTRIBUTING.md)
