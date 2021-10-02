@@ -5,6 +5,20 @@
 
 
         <link rel="manifest" href="/public/manifest.json">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script>
+          var modalShown = localStorage.getItem("modalShown");
+          if(!modalShown)
+          {
+            $(document).ready(function(){
+              $("#socialsPopup").modal('show');
+            });
+            localStorage.setItem("modalShown","true");
+          }
+
+        </script>
 
         <!-- Meta tags -->
         <meta charset='UTF-8'>
@@ -32,6 +46,8 @@
         <!-- Stylesheets -->
         <link href='https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css' rel='stylesheet'>
         <link rel='stylesheet' href='./Footer2.css' />
+        <link rel='stylesheet' href='./css/home.css' />
+        <link rel='stylesheet' href='./css/modal.css' />
         <script
           src='https://kit.fontawesome.com/66aa7c98b3.js'
           crossorigin='anonymous'
@@ -43,8 +59,8 @@
         <header class="text-gray-700 body-font">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
               <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <img class="ml-3 text-xl" src="https://cdn3.iconfinder.com/data/icons/small/512/buy_cart_ecommerce_shopping_online_store-512.png" style="height: 50px;"></img>
-                <span class="ml-3 text-xl"><text  style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #000000;">ShopOnline</text></span>
+                <img class="ml-3 text-xl logo-img-top" src="https://cdn3.iconfinder.com/data/icons/small/512/buy_cart_ecommerce_shopping_online_store-512.png" style="height: 50px;"></img>
+                <span class="ml-3 text-xl logo-text-top"><text  style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #000000;">ShopOnline</text></span>
             </a>
               <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <a class="mr-5 hover:text-gray-900" href="index.html">Home</a>
@@ -63,7 +79,7 @@
                 <img class="object-cover object-center rounded" alt="hero"  src="https://image.freepik.com/free-vector/e-commerce-vector-illustration-concept_95561-50.jpg">
               </div>
               <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><text  style="font-size: 80px; font-family:'Montserrat', sans-serif; word-spacing: 8px; color: #00296b;">Welcome to ShopOnline</text>
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 hero-text"><text  style="font-size: 80px; font-family:'Montserrat', sans-serif; word-spacing: 8px; color: #00296b;">Welcome to ShopOnline</text>
                 </h1>
                 <p class="mb-8 leading-relaxed"><text style= "font-family:'Poppins', sans-serif; font-size: 18px;">ShopOnline is an e-commerce user friendly application where the customer can register and purchase their required products.</text></p>
                 <div class="flex justify-center">
@@ -78,7 +94,7 @@
           <form action="With PHP/backend/registerCustomer.php" method="POST" class="text-gray-700 body-font" id="signup">
             <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
               <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-                <h1 class="title-font font-medium text-3xl text-gray-900"><text style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #00296b;">Register yourself</text></h1>
+                <h1 class="title-font font-medium text-3xl text-gray-900 subheading-home"><text style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #00296b;">Register yourself</text></h1>
               </div>
               <div class="lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
                 <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up as Customer</h2>
@@ -100,7 +116,7 @@
           <section class="text-gray-700 body-font">
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-12">
-                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"><text style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #00296b;">Browse Products</text></h1>
+                  <h1 class="sm:text-3xl text-2xl subheading-home font-medium title-font mb-4 text-gray-900"><text style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #00296b;">Browse Products</text></h1>
                 </div>
             <div class="container px-5 py-24 mx-auto">
               <div class="flex flex-wrap -m-4">
@@ -245,5 +261,45 @@
               </footer>
             </div>
           </footer>
+
+
+          <!-- Modal for Open Source -->
+      
+          <div id="socialsPopup" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title text-xl">Got an issue or feature in mind?? <br>We are open-source 🐱‍👤 </h2>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                          <div class="discord cell">
+                            <a href="https://discord.gg/yhtkaawfNq" target="_blank"><img src="./icons/discord.svg" alt="Discord">
+                            <h3>Join our <b>Discord</b> Server</h3>
+                            </a>
+                          </div>
+                          <div class="github cell">
+                            <a href="https://github.com/sudhay23/ShopOnline-Web-App" target="_blank"><img src="./icons/github.png" alt="Github">
+                              <h3>Head to our <b>GitHub</b> repository</h3>
+                              </a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Opensource Modal Button -->
+        <button class="modalOpenBtn" onclick="openModal()" >
+          <img src="icons/hacktoberfest.ico" alt="Hacktoberfest">
+        </button>
+        <script>
+          function openModal(){
+            $(document).ready(function(){
+              $("#socialsPopup").modal('show');
+            });
+          }
+        </script>
     </body>
 </html>
