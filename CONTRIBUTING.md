@@ -67,6 +67,7 @@ You can reach out to us at:
     -   [@sudhay23](https://github.com/sudhay23) - GitHub
     -   [@Sudhay16](https://twitter.com/Sudhay16) - Twitter
 
+-   [Join Our Discord](https://discord.gg/yhtkaawfNq)
 <br>
 
 ---
