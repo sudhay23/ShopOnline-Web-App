@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-.links{
-    position: sticky;
-    top: 0;
-}
-
 .footer {
     /* position: fixed; */
     width: 100%;
