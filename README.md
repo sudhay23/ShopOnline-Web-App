@@ -69,7 +69,7 @@ Project maintainers:
 
 ## Installation
 
-See [Installation Guideline](installation_guidelines.md)
+See [Installation Guidelines](installation_guidelines.md)
 
 ## Contributing
 
