@@ -3,14 +3,15 @@
     <head>
         <title>Login | ShopOnline</title>
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/login.css">
     </head>
     <body>
         <!---navigation bar--->
         <header class="text-gray-700 body-font">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+              <a class="flex logo-img-top title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                 <img class="ml-3 text-xl" src="https://cdn3.iconfinder.com/data/icons/small/512/buy_cart_ecommerce_shopping_online_store-512.png" style="height: 50px;"></img>
-                <span class="ml-3 text-xl"><text  style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #000000;">ShopOnline</text></span>  
+                <span class="ml-3 text-xl logo-text-top"><text  style="font-size: 50px; font-family:'Montserrat', sans-serif;color: #000000;">ShopOnline</text></span>  
             </a>
               <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <a class="mr-5 hover:text-gray-900" href="index.html">Home</a> 
@@ -25,13 +26,13 @@
           <!--Hero-->
 
         <form action="With PHP/backend/customerLogin.php" method="POST" class="text-gray-700 body-font" id="login">
-            <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+            <div class="container login-page-container px-5 py-24 mx-auto flex flex-wrap items-center">
                 <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
                     <h1 class="title-font font-medium text-3xl text-gray-900">
                         <text style="font-size: 50px;font-family: 'Montserrat', sans-serif;color: #00296b;">Welcome</text>
                     </h1>
                 </div>
-                <div class="lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                <div class="login-card lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
                     <h2 class="text-gray-900 text-lg font-medium title-font mb-5">
                         Customer Login
                     </h2>
@@ -39,6 +40,8 @@
                     <input
                         class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
                         placeholder="Email"
+                        pattern="[a-z0-9_-]+@[a-z0-9_-]+\.[a-z]{2,4}$"
+                        title="xxx@ppp.yyy"
                         id="custEmail"
                         required
                         type="email"
