@@ -24,8 +24,8 @@
 
 .modalOpenBtn {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    
+    
     background-color: white;
     box-shadow: 0px 0px 12px rgb(241, 143, 157);
     padding: 16px;

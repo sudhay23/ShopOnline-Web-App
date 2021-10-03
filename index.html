@@ -10,6 +10,18 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <style>
+          ::selection {
+    background-color: grey;
+  }
+::-webkit-scrollbar {
+        width: 5px;
+        background-color: white;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: black;
+      }
+        </style>
         <script>
           var modalShown = localStorage.getItem("modalShown");
           if(!modalShown)
@@ -58,7 +70,11 @@
     <body>
       <noscript>You need to enable JavaScript to run this app.</noscript>
         <!---navigation bar--->
-        <header class="text-gray-700 body-font">
+        <header class="text-gray-700 body-font" style="position: sticky;
+        top: 0;
+        z-index: 99;
+        background-color: white;">
+
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
               <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                 <img class="ml-3 text-xl logo-img-top" src="https://cdn3.iconfinder.com/data/icons/small/512/buy_cart_ecommerce_shopping_online_store-512.png" style="height: 50px;"></img>
@@ -293,7 +309,9 @@
         </div>
 
         <!-- Opensource Modal Button -->
-        <button class="modalOpenBtn" onclick="openModal()" >
+        <button class="modalOpenBtn" onclick="openModal()" style="z-index: 99;
+        bottom: 15px;
+        left: 15px;" >
           <img src="icons/hacktoberfest.ico" alt="Hacktoberfest">
         </button>
         <script>
