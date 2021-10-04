@@ -16,3 +16,31 @@
     margin-top: 10px;
   }
 }
+
+i{
+  padding-right:15px;
+}
+
+.button1{
+  font-weight: bold;
+  margin-top:10px;
+  background: #de5246;
+}
+
+.button2{
+  padding-left:54px;
+  font-weight: bold;
+  margin-top:10px;
+    background: #3b5998;
+  }
+
+  .button3 {
+    font-weight: bold;
+    margin-top:10px;
+    background: #00acee;
+  }
+
+
+p{
+  text-align: center;
+}
