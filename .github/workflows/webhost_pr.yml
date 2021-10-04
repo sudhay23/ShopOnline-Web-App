@@ -1,11 +1,11 @@
-name: Deploy to the Web
+name: Deploy to the Web on PR
 on:
-    push:
+    pull_request:
         branches:
             - main
 jobs:
     deploy:
-        name: Deploy Website 🚀
+        name: Deploy Website for PR 🚀
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
@@ -17,4 +17,4 @@ jobs:
                   server: files.000webhost.com
                   username: ${{ secrets.HOST_USERNAME }}
                   password: ${{ secrets.HOST_PASSWORD }}
-                  server-dir: public_html/
+                  server-dir: public_html/pull_request
