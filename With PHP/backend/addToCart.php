@@ -10,10 +10,7 @@
     // $personEmail = 'test1@gmail.com';
     // $productStock = 400;
 
-$host = "localhost";
-$dbUsername = "admin";
-$dbPassword = "admin";
-$dbname = "shoponline";
+    include 'databaseConnect.php';
 
 
     //create connection

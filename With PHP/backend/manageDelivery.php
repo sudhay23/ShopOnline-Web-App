@@ -3,10 +3,7 @@
     $deliverydate = $_POST['deliverydate'];
     $deliverystatus = $_POST['deliverystatus'];
 
-$host = "localhost";
-$dbUsername = "admin";
-$dbPassword = "admin";
-$dbname = "shoponline";
+    include 'databaseConnect.php';
 
 
     //create connection

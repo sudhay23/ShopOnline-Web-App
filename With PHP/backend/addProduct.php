@@ -9,10 +9,7 @@ $productDescription = $_POST['productDescription'];
 $productCap = $_POST['productCap'];
 $productPhoto = $_POST['productPhoto'];
 
-$host = "localhost";
-$dbUsername = "admin";
-$dbPassword = "admin";
-$dbname = "shoponline";
+include 'databaseConnect.php';
 
 
 

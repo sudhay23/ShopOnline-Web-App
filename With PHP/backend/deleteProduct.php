@@ -2,10 +2,7 @@
 
     $productId = $_POST["productID"];
 
-$host = "localhost";
-$dbUsername = "admin";
-$dbPassword = "admin";
-$dbname = "shoponline";
+    include 'databaseConnect.php';
 
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
