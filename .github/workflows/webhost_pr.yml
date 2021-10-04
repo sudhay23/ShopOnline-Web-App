@@ -17,4 +17,4 @@ jobs:
                   server: files.000webhost.com
                   username: ${{ secrets.HOST_USERNAME }}
                   password: ${{ secrets.HOST_PASSWORD }}
-                  server-dir: public_html/pull_request
+                  server-dir: public_html/pull_request/
