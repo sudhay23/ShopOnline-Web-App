@@ -4,8 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/sudhay23/ShopOnline-Web-App?color=9cf) &nbsp;
 
 
-# ShopOnline - WebApp 
-(Celebrating open-source 🎉)
+# ShopOnline - WebApp (Celebrating open-source 🎉)
 
 -   We're hosted at [here](https://shoponline-web.000webhostapp.com/) (We are currently facing some issues with registration/login , will be fixed soon)
 
