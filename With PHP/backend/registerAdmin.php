@@ -9,10 +9,7 @@ $accesslevel = $_POST['accesslevel'];
 $salary = $_POST['salary'];
 $address = $_POST['address'];
 
-$host = "localhost";
-$dbUsername = "admin";
-$dbPassword = "admin";
-$dbname = "shoponline";
+include 'databaseConnect.php';
 
 
     //create connection

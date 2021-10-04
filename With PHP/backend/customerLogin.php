@@ -3,10 +3,7 @@
 $custEmail = $_POST['custEmail'];
 $custPassword = $_POST['custPassword'];
 
-$host = "localhost";
-$dbUsername = "admin";
-$dbPassword = "admin";
-$dbname = "shoponline";
+include 'databaseConnect.php';
 
 //create connection
 $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
