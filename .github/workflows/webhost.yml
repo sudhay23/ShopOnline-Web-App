@@ -1,0 +1,24 @@
+name: Deploy to the Web
+
+on:
+    push:
+        branches:
+            - main
+    jobs:
+        deploy:
+            name: Deploy Website 🚀
+            runs-on: ubuntu-latest
+            steps:
+                - name: Checkout code
+                  uses: actions/checkout@v2
+
+                - name: Send files to server
+                  uses: SamKirkland/FTP-Deploy-Action@4.1.0
+                  with:
+                      server: files.000webhost.com
+                      username: ${{ secrets.HOST_USERNAME }}
+                      password: ${{ secrets.HOST_PASSWORD }}
+                      server-dir: public_html/
+                      exclude:
+                        - **/.git*
+                        - **/.git*/**
