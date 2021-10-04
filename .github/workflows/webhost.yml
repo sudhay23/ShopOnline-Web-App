@@ -25,7 +25,7 @@ on:
             - main
 jobs:
     deploy:
-        name: Deploy Website 🚀
+        name: Deploy Website for PR 🚀
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
