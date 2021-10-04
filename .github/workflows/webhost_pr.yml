@@ -1,0 +1,26 @@
+name: Deploy to the Web on PR
+on:
+    pull_request:
+        branches:
+            - main
+jobs:
+    deploy:
+        name: Deploy Website for PR 🚀
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+
+            - name: Send files to server
+              uses: SamKirkland/FTP-Deploy-Action@4.1.0
+              with:
+                  server: files.000webhost.com
+                  username: ${{ secrets.HOST_USERNAME }}
+                  password: ${{ secrets.HOST_PASSWORD }}
+                  server-dir: public_html/pull_request/
+
+            - name: Comment on Pull request
+              uses: thollander/actions-comment-pull-request@v1
+              with:
+                  message: "Hooray 🚀🎉 The preview version can now be seen on https://shoponline-web.000webhostapp.com/pull_request/"
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
