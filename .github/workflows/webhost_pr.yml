@@ -18,3 +18,9 @@ jobs:
                   username: ${{ secrets.HOST_USERNAME }}
                   password: ${{ secrets.HOST_PASSWORD }}
                   server-dir: public_html/pull_request/
+
+            - name: Comment on Pull request
+              uses: thollander/actions-comment-pull-request@v1
+              with:
+                  message: "Hooray!! The test version can now be seen on https://shoponline-web.000webhostapp.com/pull_request/"
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
