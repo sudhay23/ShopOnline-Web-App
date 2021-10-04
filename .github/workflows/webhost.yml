@@ -21,7 +21,7 @@ jobs:
                   server-dir: public_html/
 
 on:
-    pull-request:
+    pull_request:
         branches:
             - main
 jobs:
