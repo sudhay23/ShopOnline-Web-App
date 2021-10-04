@@ -74,5 +74,5 @@ You can reach out to us at:
 
 <center>
     <h1><b>Happy Hacking...🎮</b></h1>
-    Make sure to follow [Code of Conduct](./CODE_OF_CONDUCT.md)
+    Make sure to follow <a href="./CODE_OF_CONDUCT.md">Code of Conduct</a>
 </center>
