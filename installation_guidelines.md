@@ -21,7 +21,7 @@
     - Select location where you want to install xampp:
 
     ![xampp_install_4](https://user-images.githubusercontent.com/16044116/135674767-05c66f78-3cf8-4607-9662-650cde1ee658.png)
-    - Selecte prefered language:
+    - Select preferred language:
 
     ![xampp_install_5](https://user-images.githubusercontent.com/16044116/135674777-3e285e7f-ce99-433d-9c88-bd77cb300215.png)
 
@@ -72,7 +72,7 @@
     - 
     ![phpmyadmin_4](https://user-images.githubusercontent.com/16044116/135674927-a5ca269a-3e76-4831-8e9b-0d218e050270.png)
 
-- Now you can visite the site:
+- Now you can visit the site:
 
     > http://localhost/ShopOnline-Web-App/
 
