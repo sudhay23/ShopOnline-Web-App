@@ -17,8 +17,29 @@
   }
 }
 
+
+.login-card{
+  box-shadow: 1px 1px 12px rgb(145, 150, 158);
+}
+
+h3 {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
+h3 span { 
+  background:#edf2f7; 
+  padding:0 10px; 
+}
+
 i{
   padding-right:15px;
+}
+
+.submit{
+  font-weight: bold;
 }
 
 .button1{
@@ -43,4 +64,26 @@ i{
 
 p{
   text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.input-box input{
+  width:100%;
+}
+ i#pass{
+  margin-left:10px;
+  margin-top:118px;
+  position:absolute;
+}
+i#mail{
+  margin-left:10px;
+  margin-top:60px;
+  position:absolute;
+}
+
+#hide1{
+  display:none;
 }
