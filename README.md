@@ -25,13 +25,16 @@ Project maintainers:
     > (Screenshots are not in order of workflow, please visit the hosted live website to check out the project)
     >
     > LANDING PAGE
-    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/72618584/135611111-3a1ebc0a-d7e8-44bf-8da3-060b8a1e9a0f.png">
+    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/88482205/135991260-e120684b-b2c2-4b28-9aff-c0463dae791d.png">
     >
     > CUSTOMER REGISTERATION
-    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/72618584/135611225-b0d4abec-bc18-4492-8b53-3d956ea9eeb8.png">
+    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/88482205/135991576-647d1d96-2f5e-46d2-9bbd-26349433e100.png">
+    > 
+    > FOOTER
+    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/88482205/135992114-79a3d9ba-e56b-4f0a-98f2-847a38e0e0ff.png">
     >
     > CUSTOMER LOGIN
-    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/72618584/135611402-b45d2289-421c-4f42-bee6-a776d6edf9dc.png">
+    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/88482205/135991699-8f2af566-7c0b-4852-86d5-d735d4f39ffe.png">
     >
     > DETAILS OF ORDER
     > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/65719940/133892074-86556054-7643-43c5-b3c6-f1d0d3ccb22b.png">
@@ -58,10 +61,12 @@ Project maintainers:
     > <img width="1440" alt="Screenshot 2021-09-17 at 8 51 56 PM" src="https://user-images.githubusercontent.com/65719940/133892084-8283e3ee-a9a8-4988-a06a-6bbf5b37dd20.png">
 
 ## Contact Us
+![Uploading Screenshot (7).png…]()
 
 -   [Join Our Discord](https://discord.gg/yhtkaawfNq)
 
-## Installation
+## Installation![Screenshot (3)](https://user-images.githubusercontent.com/88482205/135991513-774da3fa-c682-407d-a72f-3edf40fdc266.png)
+
 
 See [Installation Guidelines](installation_guidelines.md)
 
