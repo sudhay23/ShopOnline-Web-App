@@ -1,13 +1,4 @@
 @media only screen and (max-width: 500px) {
-  .logo-img-top img {
-    height: 1.8rem !important;
-    margin: 0 !important;
-  }
-
-  .logo-text-top text {
-    font-size: 2rem !important;
-  }
-
   .login-page-container h1 text {
     font-size: 2rem !important;
   }
@@ -15,32 +6,4 @@
   .login-card {
     margin-top: 10px;
   }
-}
-
-i{
-  padding-right:15px;
-}
-
-.button1{
-  font-weight: bold;
-  margin-top:10px;
-  background: #de5246;
-}
-
-.button2{
-  padding-left:54px;
-  font-weight: bold;
-  margin-top:10px;
-    background: #3b5998;
-  }
-
-  .button3 {
-    font-weight: bold;
-    margin-top:10px;
-    background: #00acee;
-  }
-
-
-p{
-  text-align: center;
 }

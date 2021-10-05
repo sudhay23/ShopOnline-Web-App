@@ -1,0 +1,125 @@
+header .container
+{
+  height:120px;
+  border-bottom: 1px solid gray;
+}
+
+header img, header span
+{
+  margin-top:-25px;
+}
+
+header nav
+{
+  margin-top:-35px;
+}
+
+nav a
+{
+  transition: transform 0.2s;
+  padding: 5px 10px;
+  border-radius: 7%
+}
+nav a:hover
+{
+  transform: scale(1.2);
+  text-decoration: none;
+  background-color: rgb(245, 245, 245);
+}
+
+@media only screen and (max-width: 1050px) 
+{
+  header .container
+  {
+    height:140px;
+  }
+  header img
+  {
+    padding-left: 80% !important;
+  }
+  header img, header span
+  {
+    margin-top: -40px !important;
+  }
+  nav a
+  {
+    margin-top: 17% !important;
+  }
+  .items-nav
+  {
+    margin-left:-80px;
+  }
+}
+
+@media only screen and (max-width: 1023px) 
+{
+  header img
+  {
+    padding-left: 42% !important;
+  }
+  nav a
+  {
+    margin-top: 3% !important;
+  }
+  .items-nav
+  {
+    margin-left: 160px !important;
+  }
+}
+
+@media only screen and (max-width: 767px)
+{
+  header img 
+  {
+    padding-left: 22% !important;
+  }
+  nav a
+  {
+    margin-top: 16% !important;
+  }
+  .items-nav
+  {
+    margin-left: -300px !important;
+  }
+}
+
+@media only screen and (max-width: 639px)
+{
+  header img 
+  {
+    padding-left: 10% !important;
+  }
+  .items-nav
+  {
+    margin-left: -350px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) 
+{
+  .logo-img-top {
+    height: 1.8rem !important;
+  }
+
+  .logo-text-top text {
+    font-size: 2rem !important;
+  }
+
+  .logo-text-top {
+    position: relative;
+    top:13px;
+  }
+  header img 
+  {
+    padding-left: 5% !important;
+    margin-top: -13px !important;
+  }
+  .items-nav 
+  {
+    display: none;
+  }
+  header .container
+  {
+    height: 60px;
+  }
+}
