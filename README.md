@@ -1,10 +1,3 @@
-[![open issues](https://img.shields.io/github/issues/sudhay23/ShopOnline-Web-App)](https://github.com/sudhay23/ShopOnline-Web-App/issues)
-[![GitHub contributors](https://img.shields.io/github/contributors/sudhay23/ShopOnline-Web-App)](https://github.com/sudhay23/ShopOnline-Web-App/graphs/contributors)
-
-# ShopOnline - WebApp (Celebrating open-source 🎉)
-
--   We're hosted at [here](https://shoponline-web.000webhostapp.com/)
-
 ### An E-commerce platform in form of a Web Application incorporating concepts of DBMS along with PHP, HTML, CSS.
 
 The ShopOnline Web Application was developed using HTML, CSS, Javascript, PHP, phpMyAdmin, MySQL and XAMPP as a result of implementation of key concepts of DBMS such as normalization for an efficient database design.
