@@ -30,7 +30,7 @@
             <div class="container login-page-container px-5 py-24 mx-auto flex flex-wrap items-center">
                 <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
                     <h1 class="title-font font-medium text-3xl text-gray-900">
-                        <img src="./icons_page/undraw_authentication.svg" alt="" width="85%"
+                        <img src="./icons_page/undraw_authentication.svg" alt="" width="85%">
                     </h1>
                 </div>
                 <div class="login-card lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
@@ -38,8 +38,9 @@
                         Customer Login
                     </h2>
                    
+                    <i id="mail" class="fa fa-envelope"></i>
                     <input
-                        class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                        class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-10 py-2 mb-4"
                         placeholder="Email"
                         pattern="[a-z0-9_-]+@[a-z0-9_-]+\.[a-z]{2,4}$"
                         title="xxx@ppp.yyy"
@@ -47,23 +48,35 @@
                         required
                         type="email"
                         name="custEmail"
-                    />
+                    >
+                   
+                      <!-- <span onclick()="togglePass()">
+                        <i id="hide1" class="fa fa-eye"></i>
+                       <i id="hide2" class="fa fa-eye-slash"></i>
+                      </span> -->
+                      <i id="pass" class="fa fa-key"></i>
+                      <input
+                      class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-10 py-2 mb-4"
+                      placeholder="Password"
+                      id="custPass"
+                      minlength="8"
+                      name="custPassword"
+                      required
+                      type="password"
+                  > 
+                  
+                   
+                   
                     
-                    <input
-                        class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
-                        placeholder="Password"
-                        id="custPass"
-                        minlength="8"
-                        name="custPassword"
-                        required
-                        type="password"
-                    />
-                    <button type="submit" class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                        
+                   
+
+                    <button type="submit" class="submit text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                         Login
                     </button>
-                    <br>
-                    <p >or</p>
-                    <br>
+                    <br><br>
+                    <h3><span>or</span></h3>
+                    <br><br>
 
                     <button type="submit" class="button1 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-800 rounded text-lg">
                       <i class="fa fa-google fa-fw"></i>Login With Google
@@ -92,6 +105,23 @@
           </footer>
 
           <script>
+
+            // function togglePass(){
+            //   var x = document.getElementById("custPass");
+            //   var y = document.getElementById("hide1");
+            //   var z = document.getElementById("hide2");
+
+            //   if(x.type ==='password'){
+            //     x.type ="text";
+            //     y.style.display = "block";
+            //     z.style.display ="none";
+            //   }
+            //   else{
+            //     x.type ="text";
+            //     y.style.display = "none";
+            //     z.style.display ="block";
+            //   }
+            // }
 
             if(localStorage.getItem("loggedCustomer"))
             {
