@@ -71,10 +71,24 @@
     ![phpmyadmin_3](https://user-images.githubusercontent.com/16044116/135674921-e9992ded-6897-49df-8d62-d334fce2a214.png)
     - 
     ![phpmyadmin_4](https://user-images.githubusercontent.com/16044116/135674927-a5ca269a-3e76-4831-8e9b-0d218e050270.png)
+    
+- Update `.env` file
+    - Add one file under `ShopOnline-Web-App/With PHP/backend/` named .env
+   
+    ![1](https://user-images.githubusercontent.com/51874681/136151757-d9d241e9-8f7f-4656-9af2-7c7dee228c6b.PNG)
+
+    - Copy all the content from .env.sample to .env file
+    
+    ![2](https://user-images.githubusercontent.com/51874681/136151806-31998f3a-764e-472f-84db-1b6eadf0e1c1.PNG)
+
+    #### NOTE: If you have different `Username` and `Password` use that one.
+
+    - You can check for your `Username` and `Password` on PHPMYADMIN page under User accounts
+    
+    ![Capture](https://user-images.githubusercontent.com/51874681/136152732-459cc35e-6062-4b85-89ad-62cf3d55e357.PNG)
 
 - Now you can visit the site:
 
     > http://localhost/ShopOnline-Web-App/
 
-    - 
-    ![ShopOnline-Web-App](https://user-images.githubusercontent.com/16044116/135674936-59d1d1a9-7be0-4eac-a4db-f81baf0f61ae.png)
+    - ![ShopOnline-Web-App](https://user-images.githubusercontent.com/16044116/135674936-59d1d1a9-7be0-4eac-a4db-f81baf0f61ae.png)
