@@ -1,4 +1,4 @@
-[ ] I ensure that this feature or anything similar to this does not exist in the website. 
+- [ ] I ensure that this feature or anything similar to this does not exist in the website. 
 
 
 **Does your feature request solve any on going issue? Please describe.**
