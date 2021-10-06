@@ -2,7 +2,7 @@
 
 **Bug description**
 
-(A concise description of the bug encountered ) 
+<!-- (A concise description of the bug encountered ) -->
 
 **To Reproduce**
 
@@ -14,14 +14,14 @@ Steps to reproduce the behavior:
 
 **Expected behavior**
 
-Give a brief description of what you expected to happen.
+<!-- Give a brief description of what you expected to happen. -->
 
 **Screenshots**
 
-Add screenshots to help explain your problem (if possible)
+<!-- Add screenshots to help explain your problem (if possible) -->
 
 
 **Additional context**
 
-Add any other context about the problem here.
+<!-- Add any other context about the problem here. -->
 
