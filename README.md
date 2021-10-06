@@ -25,13 +25,13 @@ Project maintainers:
     > (Screenshots are not in order of workflow, please visit the hosted live website to check out the project)
     >
     > LANDING PAGE
-    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/72618584/135611111-3a1ebc0a-d7e8-44bf-8da3-060b8a1e9a0f.png">
+    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/51874681/135990551-1b869f94-d20c-46e8-b059-e0bbe5285761.PNG">
     >
     > CUSTOMER REGISTERATION
-    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/72618584/135611225-b0d4abec-bc18-4492-8b53-3d956ea9eeb8.png">
+    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/51874681/135991603-2bc86dad-277f-4d30-9ee0-1688aaf883b3.PNG">
     >
     > CUSTOMER LOGIN
-    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/72618584/135611402-b45d2289-421c-4f42-bee6-a776d6edf9dc.png">
+    > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/51874681/135991594-f0c40977-9bb7-42f1-86f5-2000d2efe8a0.PNG">
     >
     > DETAILS OF ORDER
     > <img width="1440" alt="Screenshot 2021-09-17 at 8 57 38 PM" src="https://user-images.githubusercontent.com/65719940/133892074-86556054-7643-43c5-b3c6-f1d0d3ccb22b.png">
