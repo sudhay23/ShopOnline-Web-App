@@ -14,7 +14,7 @@ header .container {
 }
 .nav-items a {
   padding: 5px 10px;
-  margin:0 10px;
+  margin: 0 25px;
   transition: transform 0.5s ease;
   color: black;
 }
