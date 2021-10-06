@@ -72,7 +72,7 @@
     - 
     ![phpmyadmin_4](https://user-images.githubusercontent.com/16044116/135674927-a5ca269a-3e76-4831-8e9b-0d218e050270.png)
     
-- Update `.env` file
+- Add `.env` file
     - Add one file under `ShopOnline-Web-App/With PHP/backend/` named .env
    
     ![1](https://user-images.githubusercontent.com/51874681/136151757-d9d241e9-8f7f-4656-9af2-7c7dee228c6b.PNG)
