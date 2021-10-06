@@ -37,10 +37,6 @@
     color: rgb(0, 0, 0, 0.829);
 }
 
-.footer .content a:hover {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.829);
-}
-
 .footer .content h4 {
     margin-bottom: 1.3rem;
     font-size: 19px;
@@ -78,4 +74,12 @@ footer hr {
     .footer {
         position: unset;
     }
+}
+.footer a{
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: rgb(50, 115, 255);
 }
