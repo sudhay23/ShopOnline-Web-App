@@ -72,20 +72,18 @@
     - 
     ![phpmyadmin_4](https://user-images.githubusercontent.com/16044116/135674927-a5ca269a-3e76-4831-8e9b-0d218e050270.png)
     
-- Add `.env` file
-    - Add one file under `ShopOnline-Web-App/With PHP/backend/` named .env
+- Configure `.env` file
+    - Update `.env.sample` to `.env` file under `ShopOnline-Web-App/With PHP/backend/`
    
     ![1](https://user-images.githubusercontent.com/51874681/136151757-d9d241e9-8f7f-4656-9af2-7c7dee228c6b.PNG)
 
-    - Copy all the content from .env.sample to .env file
+- Make sure you have the default :
+    - `root` user account
+    - localhost
+    - No password
+    - all privileges granted
     
     ![2](https://user-images.githubusercontent.com/51874681/136151806-31998f3a-764e-472f-84db-1b6eadf0e1c1.PNG)
-
-    #### NOTE: If you have different `Username` and `Password` use that one.
-
-    - You can check for your `Username` and `Password` on PHPMYADMIN page under User accounts
-    
-    ![Capture](https://user-images.githubusercontent.com/51874681/136152732-459cc35e-6062-4b85-89ad-62cf3d55e357.PNG)
 
 - Now you can visit the site:
 
