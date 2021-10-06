@@ -1,4 +1,4 @@
-[ ] This bug hasn't been reported before 
+- [ ]  This bug hasn't been reported before 
 
 **Bug description**
 (A concise description of the bug encountered ) 
