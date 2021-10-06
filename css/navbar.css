@@ -10,6 +10,15 @@ header .container {
 }
 .nav-items a {
   padding: 5px 10px;
+  margin:0 10px;
+  transition: transform 0.5s ease;
+  color: black;
+}
+.nav-items a:hover {
+  text-decoration: none;
+  background-color: rgb(223, 223, 223);
+  border-radius: 7%;
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 1050px)  {
