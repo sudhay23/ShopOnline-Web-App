@@ -2,7 +2,7 @@
 name: 👩‍💻👨‍💻 Feature Request
 about: Any new cool features you have in mind go here
 title: ''
-labels: 'feature request'
+labels: 'feature'
 assignees: ''
 
 ---
