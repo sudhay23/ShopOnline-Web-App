@@ -65,21 +65,30 @@
                     <p >or</p>
                     <br>
 
-                    <button type="submit" class="button1 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-800 rounded text-lg">
+                    <button type="submit" data-modal-target="#modal" class="button1 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-800 rounded text-lg">
                       <i class="fa fa-google fa-fw"></i>Login With Google
                   </button>
-
-                  <button type="submit" class="button2 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-900 rounded text-lg">
+                  <button type="submit" data-modal-target="#modal" class="button2 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-900 rounded text-lg">
                     <i class="fa fa-facebook fa-fw"> </i>Login With Facebook
                 </button>
-                <button type="submit" class="button3 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
+                <button type="submit" data-modal-target="#modal" class="button3 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
                   <i class="fa fa-twitter fa-fw"></i> Login With Twitter
               </button>
-                    
+                <div class="modal" id="modal"> 
+                  <div class="modal-header"> 
+                    <div class="title"> Warning </div>
+                    <button data-close-button class="close-button">&times; </button>
+                  </div>
+                  <div class="modal-body">
+                    Social logins are temporarily unavailable, please register using the registration form 
+                  </div>
+                </div>  
                 </div>
             </div>
+            
+        <div id="overlay"> </div>
         </form>
-
+        
          
           <!--Footer-->
           <footer class="text-gray-700 body-font" style="position: fixed;bottom: 0;width:100vw;">
