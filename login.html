@@ -23,10 +23,7 @@
               </nav>
             </div>
           </header>
-
-
           <!--Hero-->
-
         <form action="With PHP/backend/customerLogin.php" method="POST" class="text-gray-700 body-font" id="login">
             <div class="container login-page-container px-5 py-24 mx-auto flex flex-wrap items-center">
                 <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
@@ -65,13 +62,6 @@
                       required
                       type="password"
                   > 
-                  
-                   
-                   
-                    
-                        
-                   
-
                     <button type="submit" class="submit text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                         Login
                     </button>
@@ -106,24 +96,6 @@
           </footer>
 
           <script>
-
-            // function togglePass(){
-            //   var x = document.getElementById("custPass");
-            //   var y = document.getElementById("hide1");
-            //   var z = document.getElementById("hide2");
-
-            //   if(x.type ==='password'){
-            //     x.type ="text";
-            //     y.style.display = "block";
-            //     z.style.display ="none";
-            //   }
-            //   else{
-            //     x.type ="text";
-            //     y.style.display = "none";
-            //     z.style.display ="block";
-            //   }
-            // }
-
             if(localStorage.getItem("loggedCustomer"))
             {
               location.replace("With%20PHP/customerProductView.php");
