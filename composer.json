@@ -2,9 +2,5 @@
     "require-dev": {
         "vlucas/phpdotenv": "^5.3"
     }
-    "require" : {
-     "php": ">=5.4.2",
-     "cboden/ratchet": "dev-master"
-  }
 }
 
