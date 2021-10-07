@@ -1,3 +1,12 @@
+---
+name: 👩‍💻👨‍💻 Feature Request
+about: Any new cool features you have in mind go here
+title: ''
+labels: 'feature-request'
+assignees: ''
+
+---
+
 - [ ] I ensure that this feature or anything similar to this does not exist in the website. 
 
 
