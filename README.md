@@ -5,9 +5,9 @@
 [![Deploy to the Web](https://github.com/sudhay23/ShopOnline-Web-App/actions/workflows/webhost.yml/badge.svg)](https://github.com/sudhay23/ShopOnline-Web-App/actions/workflows/webhost.yml)
 [![Deploy to the Web on PR](https://github.com/sudhay23/ShopOnline-Web-App/actions/workflows/webhost_pr.yml/badge.svg)](https://github.com/sudhay23/ShopOnline-Web-App/actions/workflows/webhost_pr.yml)
 
-# ShopOnline - WebApp
+# ShopOnline - WebApp (Celebrating open-source 🎉)
 
-(Celebrating open-source 🎉)
+
 
 -   We're hosted at [here](https://shoponline-web.000webhostapp.com/) (We are currently facing some issues with registration/login , will be fixed soon)
 
