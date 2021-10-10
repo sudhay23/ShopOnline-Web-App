@@ -79,31 +79,29 @@
                     <h3><span>or</span></h3>
                     <br><br>
 
-                    <button type="submit" data-modal-target="#modal" class="button1 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-800 rounded text-lg">
+                    <button type="submit"  onclick="openModal()" class="button1 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-red-800 rounded text-lg" data-toggle="modal" data-target="loginPopup">
                       <i class="fa fa-google fa-fw"></i>Login With Google
                   </button>
-                  <button type="submit" data-modal-target="#modal" class="button2 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-900 rounded text-lg">
+                  <button type="submit"  onclick="openModal()" class="button2 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-900 rounded text-lg" data-toggle="modal" data-target="loginPopup">
                     <i class="fa fa-facebook fa-fw"> </i>Login With Facebook
                 </button>
-                <button type="submit" data-modal-target="#modal" class="button3 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
+                <button type="submit"  class="button3 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg" data-toggle="modal" data-target="loginPopup">
                   <i class="fa fa-twitter fa-fw"></i> Login With Twitter
               </button>
-                <div class="modal" id="modal"> 
-                  <div class="modal-header"> 
-                    <div class="title"> Warning </div>
-                    <button data-close-button class="close-button">&times; </button>
-                  </div>
-                  <div class="modal-body">
-                    Social logins are temporarily unavailable, please register using the registration form 
-                  </div>
-                </div>  
-                </div>
-            </div>
-            
-        <div id="overlay"> </div>
         </form>
         
-         
+          <div id="loginPopup" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title text-xl">Warning  </h2> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      <br>Social logins are temporarily unavailable, please register using the registration form 
+                    </div>
+                </div>
+            </div>
+        </div>        
           <!--Footer-->
           <footer class="text-gray-700 body-font" style="position: fixed;bottom: 0;width:100vw;">
             <div class="bg-gray-200">
@@ -132,7 +130,11 @@
             //     z.style.display ="block";
             //   }
             // }
-
+            function openModal(){
+              $(document).ready(function(){
+                $("loginPopup").modal('show');
+              });
+            }
             if(localStorage.getItem("loggedCustomer"))
             {
               location.replace("With%20PHP/customerProductView.php");
