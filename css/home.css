@@ -23,3 +23,10 @@
   }
   
 }
+#subscribe{
+  min-height: 300px;
+}
+fieldset{
+  border-style: solid;
+  border-color:royalblue;
+}
