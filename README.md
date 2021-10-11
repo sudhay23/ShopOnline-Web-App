@@ -56,6 +56,34 @@ Project maintainers:
     >
     > ADDING PRODUCT DETAILS
     > <img width="1440" alt="Screenshot 2021-09-17 at 8 51 56 PM" src="https://user-images.githubusercontent.com/65719940/133892084-8283e3ee-a9a8-4988-a06a-6bbf5b37dd20.png">
+    > 
+    > https://user-images.githubusercontent.com/51874681/136643130-71e34b48-5424-479f-b4ca-3d3e9e53ec84.mp4
+    >
+    > https://user-images.githubusercontent.com/51874681/136643163-2b43e203-d855-442e-9328-1845e450f8cf.mp4
+    >
+    > https://user-images.githubusercontent.com/51874681/136643169-b416bdff-e701-4fe9-aae1-910fc62389d7.mp4
+    >
+    > https://user-images.githubusercontent.com/51874681/136643171-5b18b160-e46d-4bf8-8328-f56b4015f630.mp4
+    > 
+    > https://user-images.githubusercontent.com/51874681/136643176-3a8e1962-a08f-4f6a-895e-5d50a4c08993.mp4
+    >
+    > https://user-images.githubusercontent.com/51874681/136643183-44488e43-40e4-4c73-8703-64454bb30dba.mp4
+    > 
+    > https://user-images.githubusercontent.com/51874681/136703386-48a1931b-e582-48c0-916a-1080f7c16e95.mp4
+    > 
+    > https://user-images.githubusercontent.com/51874681/136703395-dabba0f4-3f61-4d40-8a94-5f51d9f2b32f.mp4
+    > 
+    > https://user-images.githubusercontent.com/51874681/136703400-cac2e3d7-edd4-4ea3-a0b7-7662990bdcfe.mp4
+    > 
+    > https://user-images.githubusercontent.com/51874681/136703403-197f3f78-7445-45fb-999d-f41734b4a58a.mp4
+    > 
+    > https://user-images.githubusercontent.com/51874681/136703411-5ef185d4-b12f-455d-b707-539f573694ec.mp4
+    > 
+    > https://user-images.githubusercontent.com/51874681/136703422-b82d0dcb-d00c-4091-89fa-ca3d0d1644f7.mp4
+
+
+
+
 
 ## Contact Us
 
