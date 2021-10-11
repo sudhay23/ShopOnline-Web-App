@@ -21,7 +21,6 @@
     font-size: 2rem !important;
     text-align: center;
   }
-  
 }
 #subscribe{
   min-height: 300px;
@@ -29,4 +28,7 @@
 fieldset{
   border-style: solid;
   border-color:royalblue;
+}
+.sign-card{
+  box-shadow: 1px 1px 12px rgb(145, 150, 158);
 }
