@@ -28,37 +28,37 @@ Project maintainers:
 Screenshots are not in the order of the workflow, please visit the hosted live website to check out the project.
 
 ### Landing page
-![](https://user-images.githubusercontent.com/51874681/135990551-1b869f94-d20c-46e8-b059-e0bbe5285761.PNG)
+![](.github/images/00-Landing-page.png)
 
 ### Customer registration
-![](https://user-images.githubusercontent.com/51874681/135991603-2bc86dad-277f-4d30-9ee0-1688aaf883b3.PNG)
+![](.github/images/01-Customer-registration.png)
 
 ### Customer login
-![](https://user-images.githubusercontent.com/51874681/135991594-f0c40977-9bb7-42f1-86f5-2000d2efe8a0.PNG)
+![](.github/images/02-Customer-login.png)
 
 ### Order details
-![](https://user-images.githubusercontent.com/65719940/133892074-86556054-7643-43c5-b3c6-f1d0d3ccb22b.png)
+![](.github/images/03-Order-details.png)
 
 ### Shopping cart
-![](https://user-images.githubusercontent.com/65719940/133892080-fdfc2118-8e4c-4f1f-bc77-6b812ac9dc38.png)
+![](.github/images/04-Shopping-cart.png)
 
 ### Order list and cancellation
-![](https://user-images.githubusercontent.com/65719940/133892076-943284a4-e821-4dcb-b8b9-c8e050246276.png)
+![](.github/images/05-Order-list-and-cancellation.png)
 
 ### Order successful
-![](https://user-images.githubusercontent.com/65719940/133892078-dad5c846-6202-42ac-8b85-d6e087c6065c.png)
+![](.github/images/06-Order-successful.png)
 
 ### Admin registration
-![](https://user-images.githubusercontent.com/72618584/135611556-6b12a662-4527-4991-bf37-795ed9f64213.png)
+![](.github/images/07-Admin-registration.png)
 
 ### Admin login
-![](https://user-images.githubusercontent.com/72618584/135611767-f0095f3a-db24-4c96-bcc8-39303d73a543.png)
+![](.github/images/08-Admin-login.png)
 
 ### Product list
-![](https://user-images.githubusercontent.com/65719940/133892083-0895e83f-749a-4ad9-a6e1-6b7fa18b3fc8.png)
+![](.github/images/09-Product-list.png)
 
 ### Adding product details
-![](https://user-images.githubusercontent.com/65719940/133892084-8283e3ee-a9a8-4988-a06a-6bbf5b37dd20.png)
+![](.github/images/10-Adding-product-details.png)
 
 
 ## Videos
