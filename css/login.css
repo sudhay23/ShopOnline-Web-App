@@ -23,15 +23,15 @@
 }
 
 h3 {
-  width: 100%; 
-  text-align: center; 
-  border-bottom: 1px solid #000; 
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
   line-height: 0.1em;
-  margin: 10px 0 20px; 
-} 
-h3 span { 
-  background:#edf2f7; 
-  padding:0 10px; 
+  margin: 10px 0 20px;
+}
+h3 span {
+  background:#edf2f7;
+  padding:0 10px;
 }
 
 i{
@@ -60,7 +60,11 @@ i{
     margin-top:10px;
     background: #00acee;
   }
-
+ .button4{
+   font-weight: bold;
+   margin-top:10px;
+   background:#0073b1;
+ }
 
 p{
   text-align: center;
