@@ -9,7 +9,7 @@
 
 
 
--   We're hosted at [ShopOnline](https://shoponline-web.000webhostapp.com/) (We are currently facing some issues with registration/login, this will be fixed soon.)
+-   We're **hosted** at [ShopOnline](https://shoponline-web.000webhostapp.com/) (We are currently facing some issues with registration/login, this will be fixed soon.)
 
 ### An E-commerce platform in the form of a Web Application incorporating concepts of DBMS along with PHP, HTML, CSS.
 

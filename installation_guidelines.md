@@ -5,7 +5,7 @@
 
     [XAMPP](https://www.apachefriends.org/de/download.html)
 
-    - Start the downloaded installer (.exe) and press Yes/Ja
+    - Start the downloaded installer (.exe) and press Yes.
 
     ![xampp_install_1](https://user-images.githubusercontent.com/16044116/135674699-c543c94a-9109-4681-b25d-dc53e66bbdad.png)
     - Probably there will be pop-up a Question and Warning
