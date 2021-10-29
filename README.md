@@ -20,7 +20,7 @@ Project maintainers:
 -   Sudhay Senthilkumar ([@sudhay23](https://github.com/sudhay23))
 -   Sandeep Rajakrishnan ([@san-coding](https://github.com/san-coding))
 -   Raswanth R
--   Tarun K B
+-   Tarun.K.B
 
 
 ## Screenshots
