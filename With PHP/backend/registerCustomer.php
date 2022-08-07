@@ -1,13 +1,13 @@
 <?php
-$fname = trim($_POST['fname']);
-$lname = trim($_POST['lname']);
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
 $accountpassword = $_POST['password'];
-$dob = trim($_POST['dob']);
-$phoneno = trim($_POST['phoneno']);
-$email = trim($_POST['email']);
+$dob = $_POST['dob'];
+$phoneno = $_POST['phoneno'];
+$email = $_POST['email'];
 $accesslevel = 'customer';
-$paymentpreference = trim($_POST['paymentpreference']);
-$address = trim($_POST['address']);
+$paymentpreference = $_POST['paymentpreference'];
+$address = $_POST['address'];
 
 function valid_password($password) {
   $exp = "/((?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[@#$%]).{8,15})/";
@@ -29,15 +29,16 @@ function valid_email($mail) {
   return preg_match($exp, $mail);
 }
 
-if (
-  $fname   === '' ||
-  $lname   === '' ||
-  $dob     === '' ||
-  $phoneno === '' ||
-  $email   === '' ||
-  $address === '' ||
-  $paymentpreference === '' ||
-  $accountpassword   === '' ||
+$data = $_POST;
+
+if (empty($data['fname'])||
+    empty($data['lname']) ||
+    empty($data['dob']) ||
+    empty($data['phoneno']) ||
+    empty($data['email']) ||
+    empty($data['address']) ||
+    empty($data['paymentpreference']) ||
+    empty($data['password']) ||
   !valid_password($accountpassword) ||
   !valid_phoneno($phoneno) ||
   !valid_dob($dob) ||
