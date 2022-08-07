@@ -1,0 +1,78 @@
+<head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Footer2.css" />
+    <link rel="icon" type="image/png"
+        href="https://user-images.githubusercontent.com/86606251/135616573-fa6b14ce-1ffc-46e1-b322-44c4d2a307df.jpeg">
+    <link rel="manifest" href="/public/manifest.json">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style>
+        ::selection {
+            background-color: grey;
+        }
+
+        ::-webkit-scrollbar {
+            width: 5px;
+            background-color: white;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: black;
+        }
+    </style>
+</head>
+<!--- import navigation bar--->
+<script>
+    $(function () {
+        $('#header').load('headerNav.html');
+    });
+</script>
+
+<body>
+    <div id="header"></div>
+    <form action="With PHP/backend/registerCustomer.php" method="POST" class="text-gray-700 body-font" id="signup">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+            <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                <img src="./icons_page/undraw_welcome_cats.svg" alt="" width="85%">
+            </div>
+            <div
+                class="sign-card lg:w-2/6 md:w-1/2 bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up as Customer</h2>
+                <input
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                    placeholder="First Name" type="text" name="fname" required>
+                <input
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                    placeholder="Last Name" type="text" name="lname" required>
+                <input
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                    placeholder="DOB" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" name="dob"
+                    required>
+                <input
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                    placeholder="Email" type="email" name="email" pattern="[a-z0-9_-]+@[a-z0-9_-]+\.[a-z]{2,4}$"
+                    title="xxx@ppp.yyy" required>
+                <input
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                    placeholder="Contact Number" type="tel" maxlength="10" minlength="10" name="phoneno" required>
+                <input
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                    placeholder="Password" minlength="8" type="password" name="password"
+                    pattern="((?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[@#$%]).{8,15})"
+                    title="Password should contain at least 1 uppercase, 1 lowercase, 1 digit and 1 speacial character and should be of length between 8 and 15"
+                    required>
+                <input
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                    placeholder="Payment Preference" type="text" name="paymentpreference" required>
+                <textarea
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4"
+                    placeholder="Address" type="text" name="address" rows="4" required></textarea>
+                <button
+                    class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                    type="submit">Sign Up</button>
+            </div>
+        </div>
+    </form>
+</body>
